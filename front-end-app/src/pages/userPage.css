@@ -1,0 +1,122 @@
+
+html, body, #root {
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+
+.user-page-container {
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 100vh;
+overflow: hidden;
+}
+
+
+.sidebar {
+flex: 0 0 33.33%;
+background-color: #f0f0f0;
+padding: 20px;
+box-sizing: border-box;
+overflow-y: auto;
+height: 100vh;
+}
+
+
+.module-box {
+background-color: #fff;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 8px;
+box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+
+.main-content {
+flex: 1;
+padding: 20px;
+box-sizing: border-box;
+height: 100vh;
+overflow-y: auto;
+background-color: #ffffff;
+position: relative;
+}
+
+
+.user-profile {
+position: absolute;
+top: 20px;
+right: 20px;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.user-name {
+font-weight: bold;
+font-size: 16px;
+}
+
+.input-section {
+margin-top: 80px;
+display: flex;
+flex-direction: column;
+max-width: 400px;
+gap: 10px;
+}
+
+.input-box {
+padding: 10px;
+font-size: 14px;
+border: 1px solid #ccc;
+border-radius: 6px;
+}
+
+.submit-button {
+padding: 10px;
+font-size: 14px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+
+.submit-button:hover {
+background-color: #0056b3;
+}
+
+.userSucessfullyLogin {
+  background-color: greenyellow;
+  color: black;
+  padding: 5px 200px;  
+  font-weight: bold;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  display: inline-block;
+  white-space: nowrap; /* prevents line breaks */
+}
+
+
+.error-text {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.file-info {
+  color: green;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+
+
+
+
+
+
