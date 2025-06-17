@@ -10,7 +10,7 @@ function UserPage({ user, modules, loading }) {
 
     const [errors, setErrors] = useState({});
     const navigate = useNavigate();
-    //Empty comment
+
     const validateForm = () => {
         const newErrors = {};
         if (!userInput.trim()) newErrors.userInput = "Enter The Activity Type.";
